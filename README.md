@@ -69,4 +69,40 @@ The objective of configuring Wazuh to send alerts to Shuffle was to enhance the 
 
    ![image](https://github.com/user-attachments/assets/39718f5b-829c-4ce6-94a6-3ce3d8484e02)
 
-- 
+- We are now buidling our workflow on shuffle. I have added webhook and will copy the URI so we can connect wazuh to Shuffle.
+
+  ![Screenshot 2024-08-21 022805](https://github.com/user-attachments/assets/2d1768f5-3b24-4857-bd4e-134b68a7c19b)
+
+- I am now adding the uri to our wazuh configuration so that shuffle can start to recieive the reports.
+
+  ![Screenshot 2024-08-21 023114](https://github.com/user-attachments/assets/da3d4686-bf91-4854-bccd-0ae1251300b5)
+
+- Now shuffle is receiving the alerts from wazuh.
+
+   ![Screenshot 2024-08-21 023517](https://github.com/user-attachments/assets/0ecc95e9-dfd3-4825-b481-6221ce9e58ce)
+
+- Here I have configured the workflow to part out the SHA256 hash from the malicious file.
+
+   ![Screenshot 2024-08-21 024434](https://github.com/user-attachments/assets/b335476d-4773-448d-b865-a07894c62846)
+
+- We can now add virus total to our workflow so it can give me the reputation of the hash and as you can see it has a reputation of 63.
+
+   ![Screenshot 2024-08-21 025232](https://github.com/user-attachments/assets/d2f841a0-66a2-424e-80bf-b44445211f5b)
+
+- Next we added thehive to our workflow and have configured it.
+
+   ![image](https://github.com/user-attachments/assets/4d7eb471-1ab4-4f92-a51c-9ce8d4cda6f1)
+
+- Thehive is now receiving the alert from shuffle.
+
+   ![image](https://github.com/user-attachments/assets/04e385a8-6087-4653-943d-a809a8c8a4cc)
+
+- Now we want to also receive a email, so we will drag in the email icon and type in the email of who will be receiving them.
+
+   ![Screenshot 2024-08-22 151824](https://github.com/user-attachments/assets/c2e64c1d-a0e2-4741-96f2-c12ffc666e10)
+
+- Here you can see we are also receiving emails now.
+
+   ![Screenshot 2024-08-17 015721](https://github.com/user-attachments/assets/7c28ac92-9261-4646-adba-cbc8050d3771)
+
+  

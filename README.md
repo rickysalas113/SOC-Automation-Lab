@@ -31,7 +31,7 @@ The objective was to configure Wazuh to send alerts to Shuffle to enhance the au
 
   ![image](https://github.com/user-attachments/assets/8ffdb13b-75a2-42b1-865c-fb4e1d1f27a6)
 
-- Now in order to install TheHive onto our other Ubuntu OS we must install 4 components. First is Java second is Cassandra the thrid is ElasticSearch and finally is TheHive its self.
+- Now in order to install TheHive onto our other Ubuntu OS we must install 4 components. First is Java second is Cassandra the third is ElasticSearch and finally is TheHive its self.
 
   ![image](https://github.com/user-attachments/assets/097dd0e1-9e76-45e7-b149-2ea4f82776ba)
 
